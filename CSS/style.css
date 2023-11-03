@@ -30,7 +30,7 @@ button {
 }
 
 body {
-    font-family: Roboto;
+    /* font-family: Roboto; */
 }
 
 /* Reviews */
@@ -42,4 +42,10 @@ body {
     padding-right: 20px;
     background-color: black;
     max-width: 375px;
+}
+
+.reviews {
+    display: flex;
+    background-color: brown;
+    border: 1px coral;
 }
