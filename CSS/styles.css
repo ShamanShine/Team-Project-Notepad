@@ -1,0 +1,122 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    float: inline-start;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    font-family: inherit;
+}
+
+body {
+    /* font-family: Roboto; */
+}
+
+/* Reviews */
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    max-width: 375px;
+    height: 316px;
+}
+
+.reviews {
+    display: block;
+    margin-bottom: 40px;
+    background-color: #121212;
+    border: 1px cornflowerblue;
+}
+
+.title {
+
+    color: #FFF;
+
+    font-family: DM Sans;
+    font-size: 175%;
+    font-weight: 500;
+    line-height: 175%;
+    letter-spacing: -1.12px;
+}
+
+.reviews-block {
+    width: 335px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+.foto {
+    margin-left: 20px;
+    margin-right: 10px;
+
+}
+
+.name {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 4px
+}
+
+.reviews-inner-left {
+    margin-top: 26px;
+}
+
+.text {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.24px;
+}
+
+.stars {
+    /* display: flow-root;
+    margin-top: 10px; */
+}
+
+.star-line {
+    margin-top: 10px;
+}
+
+.text-review {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+
+    line-height: 18px;
+    /* 128.571% */
+    letter-spacing: -0.28px;
+    display: block;
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+}
